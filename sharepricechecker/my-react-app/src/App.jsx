@@ -13,7 +13,7 @@ export default function App() {
   return (
     <ShareContext.Provider value={{ searchHistory, addToHistory }}>
       <div className="p-6 max-w-xl mx-auto">
-        <img src="/stock.png" alt="Logo" style={{ height: '30%', width: '20%' }} />
+        <img src="./public/stock.png" alt="Logo" style={{ height: '30%', width: '20%' }} />
         <h1 className="text-2xl font-bold mb-4">Stock Profit Checker</h1>
         <CheckShare />
         <div className="mt-6 space-y-4">
