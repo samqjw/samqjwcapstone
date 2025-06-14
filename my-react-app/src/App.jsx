@@ -1,5 +1,5 @@
 import React, { useState, createContext } from "react";
-import CheckShare from "./CheckShare";
+import CheckShare from "./checkshare";
 
 export const ShareContext = createContext();
 
