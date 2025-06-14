@@ -34,11 +34,11 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-        working-directory: my-react-app/dist
+        working-directory: my-react-app
 
       - name: Build
-        run: npm run build
-        working-directory: my-react-app/dist
+        run: npm install && npm run build
+        working-directory: my-react-app
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
